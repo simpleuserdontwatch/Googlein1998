@@ -1,0 +1,103 @@
+doctype html
+
+head
+  title The old google
+  style.
+    img {
+      display: inline-block;
+    }
+    input {
+      width: calc(100% - 530px);
+    }
+    button, select {
+      margin-left: 3.5px;
+    }
+    #underline {
+      text-align: center;
+      color: #6F6F6F;
+    }
+    #green {
+      color: green;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    h3 {
+      margin: 0;
+      padding-top: 8px;
+    }
+
+body
+  a(href='/')
+    img(src='/assets/google.jpg' height='70' width='200')
+  input#searchbar
+  select
+    option 10 Results
+    option 30 Results
+    option 100 Results
+  button#btn1 Google Search
+  button#btn2 I'm feeling lucky
+  hr(size="1")
+  div#underline Showing results <a href="/whyonly10.html"><b>1-10</b></a> of approximately <b>234,000</b> for <b>#{query}</b>. Search took <b>0.1</b> seconds.
+  div#results !{res}
+  script(src='/scripts/search.js')
+  script(src='/scripts/searchmain.js')
+  center
+      |<table>
+      |  <tr>
+      |    <td style="vertical-align:bottom">
+      |      <center><span>Result page:</span></center>
+      |    </td></a>
+      |    <td>
+      |      <img src="/assets/nav_first.gif" alt="Image 1"><br>
+      |      <center><span>1</span></center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_current.gif" alt="Image 1"><br>
+      |      <center>2</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>3</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>4</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>5</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>6</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>7</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>8</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>9</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_page.gif" alt="Image 1"><br>
+      |      <center>10</center>
+      |    </td></a>
+      |    <td><a href="javascript:;">
+      |      <img src="/assets/nav_next.gif" alt="Image 1"><br>
+      |      <center id="green">Next page</center>
+      |    </td></a>
+      |  </tr>
+      |</table>
+  hr(size="1")
+  center
+    span Copyright ©2023 Simpleuserdontwatch on
+      a(href="https://github.com/simpleuserdontwatch")
+        img(src="/assets/github-mark.png" height="14" width="14")
+    span .

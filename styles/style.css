@@ -1,0 +1,60 @@
+
+#google {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 351px;
+  height: 113px;
+}
+
+#searchbar {
+  width: 270px;
+}
+#searchdiv {
+  /* align to center */
+  text-align: center;
+  background-color: #eeeeee;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  width: 90%;
+  /* align div to center */
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
+#stuffs {
+  /* align to center */
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 3px;
+  width: 90%;
+  /* align div to center */
+  margin-left: auto;
+  margin-right: auto;
+}
+#stuffs > #elem1 {
+  padding-top: 10px;
+  float: left;
+  width: 38.5%;
+  height: 65px;
+  background-color: #7ee5da;
+}
+#stuffs > #elem2 {
+  padding-top: 5px;
+  display: inline-block;
+  width: 22%;
+  height: 70px;
+  background-color: #70ccc2;
+}
+#stuffs > #elem3 {
+  float: right;
+  width: 38.5%;
+  height: 75px;
+  background-color: #62b3aa;
+}
+body {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Times New Roman";
+}
